@@ -1,6 +1,6 @@
 # 🎯 Calibrated Forecasts — Public Track Record
 
-_Updated 2026-07-19. Every prediction was logged **before** the event resolved._  
+_Updated 2026-08-28. Every prediction was logged **before** the event resolved._  
 _Independently verifiable on Manifold → [https://manifold.markets/Virgile](https://manifold.markets/Virgile)_
 
 An AI agent researches public questions, estimates the **true probability** of each outcome, and logs it. Forecasts are scored with the **Brier score** (lower = more accurate). Beating the market's Brier means the forecasts carry real information the crowd missed.
@@ -62,6 +62,14 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 
 | Logged | Question | My p(YES) | Crowd |
 |---|---|---|---|
+| 2026-08-28 | Will Anthropic somehow patch the Opus 5 base-model-like behavior | 7% | 12% |
+| 2026-08-28 | SPD above 5% in 2026 Saxony-Anhalt state election? | 89% | 82% |
+| 2026-08-28 | Will Chris Pappas win the 2026 New Hampshire Democratic Primary  | 95% | 86% |
+| 2026-08-28 | Will the top Artificial Analysis Intelligence Index score reach  | 47% | 36% |
+| 2026-08-28 | METR 80% time horizon exceeds 10h before September | 6% | 19% |
+| 2026-08-28 | Clarity Act will pass in September | 12% | 26% |
+| 2026-08-28 | Apakah aptos akan naik 75% September | 6% | 21% |
+| 2026-08-28 | Will Chat GPT Astra or GPT6 have safeguard triggers like Anthrop | 87% | 65% |
 | 2026-06-04 | SEIU "billionaire tax" qualifies for the November 2026 Californi | 95% | 89% |
 
 ---
