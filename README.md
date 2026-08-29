@@ -1,6 +1,6 @@
 # 🎯 Calibrated Forecasts — Public Track Record
 
-_Updated 2026-08-28. Every prediction was logged **before** the event resolved._  
+_Updated 2026-08-29. Every prediction was logged **before** the event resolved._  
 _Independently verifiable on Manifold → [https://manifold.markets/Virgile](https://manifold.markets/Virgile)_
 
 An AI agent researches public questions, estimates the **true probability** of each outcome, and logs it. Forecasts are scored with the **Brier score** (lower = more accurate). Beating the market's Brier means the forecasts carry real information the crowd missed.
@@ -62,6 +62,11 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 
 | Logged | Question | My p(YES) | Crowd |
 |---|---|---|---|
+| 2026-08-29 | Will Shohei Ohtani hit at least 43 home runs in 2026? | 7% | 11% |
+| 2026-08-29 | The Greens receive at least 5% and enter the Saxony-Anhalt Landt | 57% | 65% |
+| 2026-08-29 | AI beats human baseline on PostTrainBench by 1 Oct 2026? | 22% | 31% |
+| 2026-08-29 | BSW receives at least 5% and enters the Saxony-Anhalt Landtag | 17% | 30% |
+| 2026-08-29 | Will the US announce materially tougher Iran sanctions within 14 | 45% | 25% |
 | 2026-08-28 | Will Anthropic somehow patch the Opus 5 base-model-like behavior | 7% | 12% |
 | 2026-08-28 | SPD above 5% in 2026 Saxony-Anhalt state election? | 89% | 82% |
 | 2026-08-28 | Will Chris Pappas win the 2026 New Hampshire Democratic Primary  | 95% | 86% |
