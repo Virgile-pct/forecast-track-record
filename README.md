@@ -1,6 +1,6 @@
 # 🎯 Calibrated Forecasts — Public Track Record
 
-_Updated 2026-09-19. Every prediction was logged **before** the event resolved._  
+_Updated 2026-09-26. Every prediction was logged **before** the event resolved._  
 _Independently verifiable on Manifold → [https://manifold.markets/Virgile](https://manifold.markets/Virgile)_
 
 An AI agent researches public questions, estimates the **true probability** of each outcome, and logs it. Forecasts are scored with the **Brier score** (lower = more accurate). Beating the market's Brier means the forecasts carry real information the crowd missed.
@@ -70,6 +70,9 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 
 | Logged | Question | My p(YES) | Crowd |
 |---|---|---|---|
+| 2026-09-26 | Will Abdul El Sayed win the primary and general for senate in Mi | 63% | 67% |
+| 2026-09-26 | Will Anthropic’s IPO S-1 be public by 16 October 2026? | 62% | 51% |
+| 2026-09-26 | Democrats win Maine and Alaska US Senate Election? | 34% | 54% |
 | 2026-09-19 | Hegseth, Patel, or RFK is out within the next 90 days | 10% | 17% |
 | 2026-09-19 | US Average Gas Price Is $4.5500 or more on October 1 2026? | 62% | 51% |
 | 2026-09-19 | Will Muse rank #1 in App Store (iPhone) on October 1st 2026 | 38% | 27% |
