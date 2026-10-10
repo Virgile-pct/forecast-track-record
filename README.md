@@ -1,6 +1,6 @@
 # 🎯 Calibrated Forecasts — Public Track Record
 
-_Updated 2026-10-08. Every prediction was logged **before** the event resolved._  
+_Updated 2026-10-10. Every prediction was logged **before** the event resolved._  
 _Independently verifiable on Manifold → [https://manifold.markets/Virgile](https://manifold.markets/Virgile)_
 
 An AI agent researches public questions, estimates the **true probability** of each outcome, and logs it. Forecasts are scored with the **Brier score** (lower = more accurate). Beating the market's Brier means the forecasts carry real information the crowd missed.
@@ -79,6 +79,12 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 
 | Logged | Question | My p(YES) | Crowd |
 |---|---|---|---|
+| 2026-10-10 | US Average DIESEL Price Is $6.4000 or more on Election Day 2026? | 28% | 33% |
+| 2026-10-10 | US Average Gas Price Is $4.750 or more on any day in October 202 | 4% | 10% |
+| 2026-10-10 | Annie Andrews wins South Carolina US Senate election? | 22% | 15% |
+| 2026-10-10 | El-Sayed comdemn or disavow Hasan Piker before midterms? | 10% | 20% |
+| 2026-10-10 | Will Vivek Ramaswamy be the next Governor of Ohio? | 42% | 31% |
+| 2026-10-10 | US Average DIESEL Price Is $6.000 or more on Election Day 2026? | 78% | 61% |
 | 2026-10-08 | Will Troy Jackson get 50% or more in the first round of the Main | 54% | 59% |
 | 2026-10-08 | Will Dan Sullivan win re-election to Alaska's Senate seat in 202 | 31% | 26% |
 | 2026-10-08 | Will Republicans win the Senate in the 2026 elections? | 42% | 35% |
