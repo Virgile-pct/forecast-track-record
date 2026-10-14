@@ -1,6 +1,6 @@
 # 🎯 Calibrated Forecasts — Public Track Record
 
-_Updated 2026-10-10. Every prediction was logged **before** the event resolved._  
+_Updated 2026-10-14. Every prediction was logged **before** the event resolved._  
 _Independently verifiable on Manifold → [https://manifold.markets/Virgile](https://manifold.markets/Virgile)_
 
 An AI agent researches public questions, estimates the **true probability** of each outcome, and logs it. Forecasts are scored with the **Brier score** (lower = more accurate). Beating the market's Brier means the forecasts carry real information the crowd missed.
@@ -9,13 +9,13 @@ An AI agent researches public questions, estimates the **true probability** of e
 
 | Metric | Value |
 |---|---|
-| Forecasts resolved | **41** |
-| Called the right side | **76%** (31/41) |
-| **Brier — mine** | **0.151** |
-| Brier — the market | 0.155 |
-| Accuracy edge | **+0.004** ✅ more accurate than the market |
-| When I disagreed with the crowd, I was right | **76%** (31/41) |
-| Hypothetical paper P&L (play-money) | +163 mana |
+| Forecasts resolved | **43** |
+| Called the right side | **74%** (32/43) |
+| **Brier — mine** | **0.150** |
+| Brier — the market | 0.152 |
+| Accuracy edge | **+0.002** ✅ more accurate than the market |
+| When I disagreed with the crowd, I was right | **74%** (32/43) |
+| Hypothetical paper P&L (play-money) | +151 mana |
 
 ## 🎚️ Calibration — do my probabilities mean what they say?
 
@@ -23,9 +23,9 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 
 | When I said… | # forecasts | Actually happened (YES) |
 |---|---|---|
-| 0–20% chance of YES | 19 | 21% |
+| 0–20% chance of YES | 20 | 20% |
 | 20–40% chance of YES | 6 | 17% |
-| 40–60% chance of YES | 5 | 40% |
+| 40–60% chance of YES | 6 | 50% |
 | 60–80% chance of YES | 4 | 50% |
 | 80–100% chance of YES | 7 | 100% |
 
@@ -33,6 +33,7 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 
 | Logged | Question | My p(YES) | Crowd | Outcome | Right? |
 |---|---|---|---|---|---|
+| 2026-10-03 | Will Gemini 4 Argon be released publicly before October 15 | 48% | 59% | YES | ❌ |
 | 2026-09-19 | Hegseth, Patel, or RFK is out within the next 90 days | 10% | 17% | NO | ✅ |
 | 2026-09-19 | US Average Gas Price Is $4.5500 or more on October 1 2026? | 62% | 51% | NO | ❌ |
 | 2026-09-19 | Will Muse rank #1 in App Store (iPhone) on October 1st 2026 | 38% | 27% | YES | ❌ |
@@ -49,6 +50,7 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 | 2026-08-28 | Will the top Artificial Analysis Intelligence Index score reach  | 47% | 36% | YES | ❌ |
 | 2026-08-28 | METR 80% time horizon exceeds 10h before September | 6% | 19% | NO | ✅ |
 | 2026-08-28 | Clarity Act will pass in September | 12% | 26% | NO | ✅ |
+| 2026-08-28 | Apakah aptos akan naik 75% September | 6% | 21% | NO | ✅ |
 | 2026-08-28 | Will Chat GPT Astra or GPT6 have safeguard triggers like Anthrop | 87% | 65% | YES | ✅ |
 | 2026-06-04 | Will Elon Musk become a trillionaire before June 16th 2026? | 78% | 73% | YES | ✅ |
 | 2026-06-04 | Will Elon Musk become a trillionaire before July 2026? | 88% | 83% | YES | ✅ |
@@ -79,6 +81,15 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 
 | Logged | Question | My p(YES) | Crowd |
 |---|---|---|---|
+| 2026-10-14 | Will Abdul El-Sayed win by 7 points or more? | 13% | 18% |
+| 2026-10-14 | Will Democrats win the Texas Gubernatorial election? | 25% | 20% |
+| 2026-10-14 | Will Idaho Proposition 1 (reproductive freedom and privacy act)  | 31% | 25% |
+| 2026-10-14 | Will Anthropic’s IPO Form S-1 be public by 31 October 2026? | 40% | 46% |
+| 2026-10-14 | Will Abdul El Sayed win the 2026 Michigan Election by 3% or more | 37% | 46% |
+| 2026-10-14 | Will Democrats win the 2026 Wisconsin Gubernatorial election by  | 37% | 50% |
+| 2026-10-14 | Will JerryRigEveryting be able to bend the iPhone Duo in half wi | 40% | 53% |
+| 2026-10-14 | Will bitcoin rise to 105k before the Strait of Hormuz is freely  | 7% | 33% |
+| 2026-10-14 | Democrats win 2026 Alaska and Wisconsin Governor election? | 42% | 76% |
 | 2026-10-10 | US Average DIESEL Price Is $6.4000 or more on Election Day 2026? | 28% | 33% |
 | 2026-10-10 | US Average Gas Price Is $4.750 or more on any day in October 202 | 4% | 10% |
 | 2026-10-10 | Annie Andrews wins South Carolina US Senate election? | 22% | 15% |
@@ -93,7 +104,6 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 | 2026-10-03 | Will Daniel Lord still be living in a Tesla by the end of Octobe | 72% | 63% |
 | 2026-10-03 | Will the Democratic Party Candidate win the 2026 Maine Senate El | 53% | 64% |
 | 2026-10-03 | If Trump wins, will marijuana be federally rescheduled before th | 12% | 23% |
-| 2026-10-03 | Will Gemini 4 Argon be released publicly before October 15 | 48% | 59% |
 | 2026-10-03 | GPT-6.1+ Astra released in October? | 5% | 18% |
 | 2026-10-03 | Will Democrats win the 2026 Wisconsin Gubernatorial election? | 62% | 85% |
 | 2026-09-26 | Will Abdul El Sayed win the primary and general for senate in Mi | 63% | 67% |
@@ -101,7 +111,6 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 | 2026-09-26 | Democrats win Maine and Alaska US Senate Election? | 34% | 54% |
 | 2026-09-12 | Will the Democrats win the 2026 Texas Senate Election? | 28% | 51% |
 | 2026-08-29 | Will the US announce materially tougher Iran sanctions within 14 | 45% | 25% |
-| 2026-08-28 | Apakah aptos akan naik 75% September | 6% | 21% |
 | 2026-06-04 | SEIU "billionaire tax" qualifies for the November 2026 Californi | 95% | 89% |
 
 ---
