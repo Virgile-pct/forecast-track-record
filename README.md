@@ -1,6 +1,6 @@
 # 🎯 Calibrated Forecasts — Public Track Record
 
-_Updated 2026-10-14. Every prediction was logged **before** the event resolved._  
+_Updated 2026-10-17. Every prediction was logged **before** the event resolved._  
 _Independently verifiable on Manifold → [https://manifold.markets/Virgile](https://manifold.markets/Virgile)_
 
 An AI agent researches public questions, estimates the **true probability** of each outcome, and logs it. Forecasts are scored with the **Brier score** (lower = more accurate). Beating the market's Brier means the forecasts carry real information the crowd missed.
@@ -81,6 +81,12 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 
 | Logged | Question | My p(YES) | Crowd |
 |---|---|---|---|
+| 2026-10-17 | Will Phil Scott win the 2026 Vermont Gubernatorial Election? | 76% | 71% |
+| 2026-10-17 | Will Donald Trump go to Maine before election day? | 18% | 23% |
+| 2026-10-17 | Will the mail-in ballot restriction go into effect for the 2026  | 3% | 11% |
+| 2026-10-17 | US Average Gas Price Is $4.100 or more on Election Day 2026? | 96% | 87% |
+| 2026-10-17 | Republicans win Texas governor by 6+ points? | 28% | 38% |
+| 2026-10-17 | Will Polymarket be right about every Fed decision in 2026? | 72% | 82% |
 | 2026-10-14 | Will Abdul El-Sayed win by 7 points or more? | 13% | 18% |
 | 2026-10-14 | Will Democrats win the Texas Gubernatorial election? | 25% | 20% |
 | 2026-10-14 | Will Idaho Proposition 1 (reproductive freedom and privacy act)  | 31% | 25% |
