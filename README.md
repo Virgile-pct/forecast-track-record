@@ -1,6 +1,6 @@
 # 🎯 Calibrated Forecasts — Public Track Record
 
-_Updated 2026-10-17. Every prediction was logged **before** the event resolved._  
+_Updated 2026-10-21. Every prediction was logged **before** the event resolved._  
 _Independently verifiable on Manifold → [https://manifold.markets/Virgile](https://manifold.markets/Virgile)_
 
 An AI agent researches public questions, estimates the **true probability** of each outcome, and logs it. Forecasts are scored with the **Brier score** (lower = more accurate). Beating the market's Brier means the forecasts carry real information the crowd missed.
@@ -9,13 +9,13 @@ An AI agent researches public questions, estimates the **true probability** of e
 
 | Metric | Value |
 |---|---|
-| Forecasts resolved | **43** |
-| Called the right side | **74%** (32/43) |
-| **Brier — mine** | **0.150** |
+| Forecasts resolved | **45** |
+| Called the right side | **73%** (33/45) |
+| **Brier — mine** | **0.152** |
 | Brier — the market | 0.152 |
-| Accuracy edge | **+0.002** ✅ more accurate than the market |
-| When I disagreed with the crowd, I was right | **74%** (32/43) |
-| Hypothetical paper P&L (play-money) | +151 mana |
+| Accuracy edge | **-0.000** ❌ behind the market |
+| When I disagreed with the crowd, I was right | **73%** (33/45) |
+| Hypothetical paper P&L (play-money) | +134 mana |
 
 ## 🎚️ Calibration — do my probabilities mean what they say?
 
@@ -26,14 +26,15 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 | 0–20% chance of YES | 20 | 20% |
 | 20–40% chance of YES | 6 | 17% |
 | 40–60% chance of YES | 6 | 50% |
-| 60–80% chance of YES | 4 | 50% |
-| 80–100% chance of YES | 7 | 100% |
+| 60–80% chance of YES | 5 | 40% |
+| 80–100% chance of YES | 8 | 100% |
 
 ## ✅ Resolved forecasts (newest first)
 
 | Logged | Question | My p(YES) | Crowd | Outcome | Right? |
 |---|---|---|---|---|---|
 | 2026-10-03 | Will Gemini 4 Argon be released publicly before October 15 | 48% | 59% | YES | ❌ |
+| 2026-09-26 | Will Anthropic’s IPO S-1 be public by 16 October 2026? | 62% | 51% | NO | ❌ |
 | 2026-09-19 | Hegseth, Patel, or RFK is out within the next 90 days | 10% | 17% | NO | ✅ |
 | 2026-09-19 | US Average Gas Price Is $4.5500 or more on October 1 2026? | 62% | 51% | NO | ❌ |
 | 2026-09-19 | Will Muse rank #1 in App Store (iPhone) on October 1st 2026 | 38% | 27% | YES | ❌ |
@@ -56,6 +57,7 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 | 2026-06-04 | Will Elon Musk become a trillionaire before July 2026? | 88% | 83% | YES | ✅ |
 | 2026-06-04 | Strait of Hormuz traffic returns to normal by end of June? [Poly | 10% | 15% | NO | ✅ |
 | 2026-06-04 | Will The Gameoverse Pilot reach 25 million views by the end of J | 82% | 88% | YES | ✅ |
+| 2026-06-04 | SEIU "billionaire tax" qualifies for the November 2026 Californi | 95% | 89% | YES | ✅ |
 | 2026-06-04 | Will Tom Steyer finish top 2 in the California governor primary? | 22% | 29% | NO | ✅ |
 | 2026-06-04 | Knicks vs Spurs, NBA Final Series Winner | 64% | 53% | YES | ✅ |
 | 2026-06-04 | Female AI love bot: ChadGPT | 8% | 21% | YES | ❌ |
@@ -81,6 +83,12 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 
 | Logged | Question | My p(YES) | Crowd |
 |---|---|---|---|
+| 2026-10-21 | Will Control of the House be called on Election night? | 60% | 55% |
+| 2026-10-21 | Are neural networks already clean? | 22% | 28% |
+| 2026-10-21 | Will Russia blame Ukraine for its recent plague outbreak in the  | 18% | 29% |
+| 2026-10-21 | Republicans win at least one of ME/MN/NC Senate seats in 2026? | 52% | 39% |
+| 2026-10-21 | Will ICE be deployed at polling stations during the 2026 midterm | 12% | 35% |
+| 2026-10-21 | Will Arkansas Issue 3 (economic development districts) be approv | 32% | 62% |
 | 2026-10-17 | Will Phil Scott win the 2026 Vermont Gubernatorial Election? | 76% | 71% |
 | 2026-10-17 | Will Donald Trump go to Maine before election day? | 18% | 23% |
 | 2026-10-17 | Will the mail-in ballot restriction go into effect for the 2026  | 3% | 11% |
@@ -113,11 +121,9 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 | 2026-10-03 | GPT-6.1+ Astra released in October? | 5% | 18% |
 | 2026-10-03 | Will Democrats win the 2026 Wisconsin Gubernatorial election? | 62% | 85% |
 | 2026-09-26 | Will Abdul El Sayed win the primary and general for senate in Mi | 63% | 67% |
-| 2026-09-26 | Will Anthropic’s IPO S-1 be public by 16 October 2026? | 62% | 51% |
 | 2026-09-26 | Democrats win Maine and Alaska US Senate Election? | 34% | 54% |
 | 2026-09-12 | Will the Democrats win the 2026 Texas Senate Election? | 28% | 51% |
 | 2026-08-29 | Will the US announce materially tougher Iran sanctions within 14 | 45% | 25% |
-| 2026-06-04 | SEIU "billionaire tax" qualifies for the November 2026 Californi | 95% | 89% |
 
 ---
 _Forecasts are produced by an automated research agent. Informational only; not betting or investment advice._
