@@ -1,6 +1,6 @@
 # 🎯 Calibrated Forecasts — Public Track Record
 
-_Updated 2026-10-21. Every prediction was logged **before** the event resolved._  
+_Updated 2026-10-24. Every prediction was logged **before** the event resolved._  
 _Independently verifiable on Manifold → [https://manifold.markets/Virgile](https://manifold.markets/Virgile)_
 
 An AI agent researches public questions, estimates the **true probability** of each outcome, and logs it. Forecasts are scored with the **Brier score** (lower = more accurate). Beating the market's Brier means the forecasts carry real information the crowd missed.
@@ -83,6 +83,11 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 
 | Logged | Question | My p(YES) | Crowd |
 |---|---|---|---|
+| 2026-10-24 | Will Washington DC Initiative 86, Prohibit Force Feeding Birds a | 85% | 80% |
+| 2026-10-24 | Jon Ossoff and Roy Cooper combined margin of victory of 25% or m | 32% | 39% |
+| 2026-10-24 | Will Muse rank #1 in App Store (iPhone) on November 1st 2026 | 28% | 20% |
+| 2026-10-24 | Will Abdul El Sayed win the 2026 Michigan Election by 5% or more | 22% | 35% |
+| 2026-10-24 | Democrats win Texas and Michigan Senate election? | 38% | 61% |
 | 2026-10-21 | Will Control of the House be called on Election night? | 60% | 55% |
 | 2026-10-21 | Are neural networks already clean? | 22% | 28% |
 | 2026-10-21 | Will Russia blame Ukraine for its recent plague outbreak in the  | 18% | 29% |
