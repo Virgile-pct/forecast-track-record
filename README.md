@@ -1,6 +1,6 @@
 # 🎯 Calibrated Forecasts — Public Track Record
 
-_Updated 2026-10-24. Every prediction was logged **before** the event resolved._  
+_Updated 2026-10-28. Every prediction was logged **before** the event resolved._  
 _Independently verifiable on Manifold → [https://manifold.markets/Virgile](https://manifold.markets/Virgile)_
 
 An AI agent researches public questions, estimates the **true probability** of each outcome, and logs it. Forecasts are scored with the **Brier score** (lower = more accurate). Beating the market's Brier means the forecasts carry real information the crowd missed.
@@ -9,13 +9,13 @@ An AI agent researches public questions, estimates the **true probability** of e
 
 | Metric | Value |
 |---|---|
-| Forecasts resolved | **45** |
-| Called the right side | **73%** (33/45) |
-| **Brier — mine** | **0.152** |
-| Brier — the market | 0.152 |
-| Accuracy edge | **-0.000** ❌ behind the market |
-| When I disagreed with the crowd, I was right | **73%** (33/45) |
-| Hypothetical paper P&L (play-money) | +134 mana |
+| Forecasts resolved | **48** |
+| Called the right side | **73%** (35/48) |
+| **Brier — mine** | **0.158** |
+| Brier — the market | 0.156 |
+| Accuracy edge | **-0.002** ❌ behind the market |
+| When I disagreed with the crowd, I was right | **71%** (34/48) |
+| Hypothetical paper P&L (play-money) | +116 mana |
 
 ## 🎚️ Calibration — do my probabilities mean what they say?
 
@@ -25,7 +25,7 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 |---|---|---|
 | 0–20% chance of YES | 20 | 20% |
 | 20–40% chance of YES | 6 | 17% |
-| 40–60% chance of YES | 6 | 50% |
+| 40–60% chance of YES | 9 | 44% |
 | 60–80% chance of YES | 5 | 40% |
 | 80–100% chance of YES | 8 | 100% |
 
@@ -33,6 +33,8 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 
 | Logged | Question | My p(YES) | Crowd | Outcome | Right? |
 |---|---|---|---|---|---|
+| 2026-10-14 | Will Anthropic’s IPO Form S-1 be public by 31 October 2026? | 40% | 46% | YES | ❌ |
+| 2026-10-14 | Will JerryRigEveryting be able to bend the iPhone Duo in half wi | 40% | 53% | NO | ✅ |
 | 2026-10-03 | Will Gemini 4 Argon be released publicly before October 15 | 48% | 59% | YES | ❌ |
 | 2026-09-26 | Will Anthropic’s IPO S-1 be public by 16 October 2026? | 62% | 51% | NO | ❌ |
 | 2026-09-19 | Hegseth, Patel, or RFK is out within the next 90 days | 10% | 17% | NO | ✅ |
@@ -45,6 +47,7 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 | 2026-08-29 | The Greens receive at least 5% and enter the Saxony-Anhalt Landt | 57% | 65% | YES | ✅ |
 | 2026-08-29 | AI beats human baseline on PostTrainBench by 1 Oct 2026? | 22% | 31% | NO | ✅ |
 | 2026-08-29 | BSW receives at least 5% and enters the Saxony-Anhalt Landtag | 17% | 30% | YES | ❌ |
+| 2026-08-29 | Will the US announce materially tougher Iran sanctions within 14 | 45% | 25% | NO | ✅ |
 | 2026-08-28 | Will Anthropic somehow patch the Opus 5 base-model-like behavior | 7% | 12% | NO | ✅ |
 | 2026-08-28 | SPD above 5% in 2026 Saxony-Anhalt state election? | 89% | 82% | YES | ✅ |
 | 2026-08-28 | Will Chris Pappas win the 2026 New Hampshire Democratic Primary  | 95% | 86% | YES | ✅ |
@@ -83,6 +86,11 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 
 | Logged | Question | My p(YES) | Crowd |
 |---|---|---|---|
+| 2026-10-28 | T Coronae Borealis reaches magnitude 5.0 before November 11th, 2 | 9% | 13% |
+| 2026-10-28 | Will hemp-derived CBN sleep products still be federally legal as | 92% | 87% |
+| 2026-10-28 | Will any independent win a U.S. House seat in the 2026 elections | 35% | 20% |
+| 2026-10-28 | Will at least one major hurricane make landfall in the US*? | 87% | 65% |
+| 2026-10-28 | Will the first mission of Grand Theft Auto 6 take place in a pri | 82% | 56% |
 | 2026-10-24 | Will Washington DC Initiative 86, Prohibit Force Feeding Birds a | 85% | 80% |
 | 2026-10-24 | Jon Ossoff and Roy Cooper combined margin of victory of 25% or m | 32% | 39% |
 | 2026-10-24 | Will Muse rank #1 in App Store (iPhone) on November 1st 2026 | 28% | 20% |
@@ -103,10 +111,8 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 | 2026-10-14 | Will Abdul El-Sayed win by 7 points or more? | 13% | 18% |
 | 2026-10-14 | Will Democrats win the Texas Gubernatorial election? | 25% | 20% |
 | 2026-10-14 | Will Idaho Proposition 1 (reproductive freedom and privacy act)  | 31% | 25% |
-| 2026-10-14 | Will Anthropic’s IPO Form S-1 be public by 31 October 2026? | 40% | 46% |
 | 2026-10-14 | Will Abdul El Sayed win the 2026 Michigan Election by 3% or more | 37% | 46% |
 | 2026-10-14 | Will Democrats win the 2026 Wisconsin Gubernatorial election by  | 37% | 50% |
-| 2026-10-14 | Will JerryRigEveryting be able to bend the iPhone Duo in half wi | 40% | 53% |
 | 2026-10-14 | Will bitcoin rise to 105k before the Strait of Hormuz is freely  | 7% | 33% |
 | 2026-10-14 | Democrats win 2026 Alaska and Wisconsin Governor election? | 42% | 76% |
 | 2026-10-10 | US Average DIESEL Price Is $6.4000 or more on Election Day 2026? | 28% | 33% |
@@ -128,7 +134,6 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 | 2026-09-26 | Will Abdul El Sayed win the primary and general for senate in Mi | 63% | 67% |
 | 2026-09-26 | Democrats win Maine and Alaska US Senate Election? | 34% | 54% |
 | 2026-09-12 | Will the Democrats win the 2026 Texas Senate Election? | 28% | 51% |
-| 2026-08-29 | Will the US announce materially tougher Iran sanctions within 14 | 45% | 25% |
 
 ---
 _Forecasts are produced by an automated research agent. Informational only; not betting or investment advice._
