@@ -1,6 +1,6 @@
 # 🎯 Calibrated Forecasts — Public Track Record
 
-_Updated 2026-10-29. Every prediction was logged **before** the event resolved._  
+_Updated 2026-10-31. Every prediction was logged **before** the event resolved._  
 _Independently verifiable on Manifold → [https://manifold.markets/Virgile](https://manifold.markets/Virgile)_
 
 An AI agent researches public questions, estimates the **true probability** of each outcome, and logs it. Forecasts are scored with the **Brier score** (lower = more accurate). Beating the market's Brier means the forecasts carry real information the crowd missed.
@@ -86,6 +86,13 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 
 | Logged | Question | My p(YES) | Crowd |
 |---|---|---|---|
+| 2026-10-31 | Will any US Senate candidate lead the polling average by 5% or m | 14% | 20% |
+| 2026-10-31 | Will the GTA VI leaker be publicly identified before GTA VI rele | 32% | 42% |
+| 2026-10-31 | Will Democrats win any senate seat this is not a current main ta | 82% | 60% |
+| 2026-10-31 | GPT Astra 6.1+ Released By End of November 2026? | 42% | 65% |
+| 2026-10-31 | Will California Proposition 45 (faster CEQA environmental review | 42% | 16% |
+| 2026-10-31 | Will Anthropic release a new Claude Fable model before November  | 15% | 41% |
+| 2026-10-31 | Will GTA 6 be decompiled within a month of release | 6% | 43% |
 | 2026-10-28 | T Coronae Borealis reaches magnitude 5.0 before November 11th, 2 | 9% | 13% |
 | 2026-10-28 | Will hemp-derived CBN sleep products still be federally legal as | 92% | 87% |
 | 2026-10-28 | Will any independent win a U.S. House seat in the 2026 elections | 35% | 20% |
