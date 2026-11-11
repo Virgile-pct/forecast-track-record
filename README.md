@@ -1,6 +1,6 @@
 # 🎯 Calibrated Forecasts — Public Track Record
 
-_Updated 2026-11-07. Every prediction was logged **before** the event resolved._  
+_Updated 2026-11-11. Every prediction was logged **before** the event resolved._  
 _Independently verifiable on Manifold → [https://manifold.markets/Virgile](https://manifold.markets/Virgile)_
 
 An AI agent researches public questions, estimates the **true probability** of each outcome, and logs it. Forecasts are scored with the **Brier score** (lower = more accurate). Beating the market's Brier means the forecasts carry real information the crowd missed.
@@ -9,13 +9,13 @@ An AI agent researches public questions, estimates the **true probability** of e
 
 | Metric | Value |
 |---|---|
-| Forecasts resolved | **92** |
-| Called the right side | **75%** (69/92) |
-| **Brier — mine** | **0.157** |
-| Brier — the market | 0.152 |
+| Forecasts resolved | **94** |
+| Called the right side | **76%** (71/94) |
+| **Brier — mine** | **0.154** |
+| Brier — the market | 0.150 |
 | Accuracy edge | **-0.005** ❌ behind the market |
-| When I disagreed with the crowd, I was right | **66%** (61/92) |
-| Hypothetical paper P&L (play-money) | +94 mana |
+| When I disagreed with the crowd, I was right | **67%** (63/94) |
+| Hypothetical paper P&L (play-money) | +109 mana |
 
 ## 🎚️ Calibration — do my probabilities mean what they say?
 
@@ -23,16 +23,17 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 
 | When I said… | # forecasts | Actually happened (YES) |
 |---|---|---|
-| 0–20% chance of YES | 31 | 13% |
+| 0–20% chance of YES | 32 | 12% |
 | 20–40% chance of YES | 20 | 45% |
 | 40–60% chance of YES | 16 | 44% |
-| 60–80% chance of YES | 11 | 73% |
+| 60–80% chance of YES | 12 | 75% |
 | 80–100% chance of YES | 14 | 100% |
 
 ## ✅ Resolved forecasts (newest first)
 
 | Logged | Question | My p(YES) | Crowd | Outcome | Right? |
 |---|---|---|---|---|---|
+| 2026-11-04 | Will Colorado Proposition 137 (sporting goods tax for conservati | 78% | 74% | YES | ✅ |
 | 2026-11-04 | Will the Massachusetts all-party primary voting format ballot me | 8% | 16% | NO | ✅ |
 | 2026-11-04 | Will Colorado Proposition 133 (penalties for trafficking of a mi | 68% | 59% | YES | ✅ |
 | 2026-11-04 | Will Indiana Public Question 2 (city and town court judge reside | 97% | 88% | YES | ✅ |
@@ -75,6 +76,7 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 | 2026-10-08 | Will Los Angeles Dodgers win the 2026 World Series? | 32% | 43% | NO | ✅ |
 | 2026-10-08 | US Average Gas Price Is $4.000 or more on November 1 2026? | 96% | 84% | YES | ✅ |
 | 2026-10-03 | Will the Democratic Party Candidate win the 2026 Maine Senate El | 53% | 64% | YES | ✅ |
+| 2026-10-03 | If Trump wins, will marijuana be federally rescheduled before th | 12% | 23% | NO | ✅ |
 | 2026-10-03 | Will Gemini 4 Argon be released publicly before October 15 | 48% | 59% | YES | ❌ |
 | 2026-10-03 | GPT-6.1+ Astra released in October? | 5% | 18% | NO | ✅ |
 | 2026-10-03 | Will Democrats win the 2026 Wisconsin Gubernatorial election? | 62% | 85% | YES | ✅ |
@@ -130,7 +132,7 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 
 | Logged | Question | My p(YES) | Crowd |
 |---|---|---|---|
-| 2026-11-04 | Will Colorado Proposition 137 (sporting goods tax for conservati | 78% | 74% |
+| 2026-11-11 | Will Kamoa-Kakula Project 95 be fully commissioned by 2026-12-31 | 97% | 70% |
 | 2026-10-31 | Will any US Senate candidate lead the polling average by 5% or m | 14% | 20% |
 | 2026-10-31 | Will the GTA VI leaker be publicly identified before GTA VI rele | 32% | 42% |
 | 2026-10-31 | GPT Astra 6.1+ Released By End of November 2026? | 42% | 65% |
@@ -147,7 +149,6 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 | 2026-10-10 | El-Sayed comdemn or disavow Hasan Piker before midterms? | 10% | 20% |
 | 2026-10-08 | Will Dan Sullivan win re-election to Alaska's Senate seat in 202 | 31% | 26% |
 | 2026-10-03 | Will Daniel Lord still be living in a Tesla by the end of Octobe | 72% | 63% |
-| 2026-10-03 | If Trump wins, will marijuana be federally rescheduled before th | 12% | 23% |
 | 2026-09-26 | Democrats win Maine and Alaska US Senate Election? | 34% | 54% |
 
 ---
