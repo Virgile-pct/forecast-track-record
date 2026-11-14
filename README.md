@@ -1,6 +1,6 @@
 # 🎯 Calibrated Forecasts — Public Track Record
 
-_Updated 2026-11-11. Every prediction was logged **before** the event resolved._  
+_Updated 2026-11-14. Every prediction was logged **before** the event resolved._  
 _Independently verifiable on Manifold → [https://manifold.markets/Virgile](https://manifold.markets/Virgile)_
 
 An AI agent researches public questions, estimates the **true probability** of each outcome, and logs it. Forecasts are scored with the **Brier score** (lower = more accurate). Beating the market's Brier means the forecasts carry real information the crowd missed.
@@ -9,13 +9,13 @@ An AI agent researches public questions, estimates the **true probability** of e
 
 | Metric | Value |
 |---|---|
-| Forecasts resolved | **94** |
-| Called the right side | **76%** (71/94) |
-| **Brier — mine** | **0.154** |
-| Brier — the market | 0.150 |
-| Accuracy edge | **-0.005** ❌ behind the market |
-| When I disagreed with the crowd, I was right | **67%** (63/94) |
-| Hypothetical paper P&L (play-money) | +109 mana |
+| Forecasts resolved | **99** |
+| Called the right side | **75%** (74/99) |
+| **Brier — mine** | **0.160** |
+| Brier — the market | 0.152 |
+| Accuracy edge | **-0.008** ❌ behind the market |
+| When I disagreed with the crowd, I was right | **66%** (65/99) |
+| Hypothetical paper P&L (play-money) | +61 mana |
 
 ## 🎚️ Calibration — do my probabilities mean what they say?
 
@@ -23,11 +23,11 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 
 | When I said… | # forecasts | Actually happened (YES) |
 |---|---|---|
-| 0–20% chance of YES | 32 | 12% |
-| 20–40% chance of YES | 20 | 45% |
+| 0–20% chance of YES | 34 | 15% |
+| 20–40% chance of YES | 22 | 45% |
 | 40–60% chance of YES | 16 | 44% |
 | 60–80% chance of YES | 12 | 75% |
-| 80–100% chance of YES | 14 | 100% |
+| 80–100% chance of YES | 15 | 100% |
 
 ## ✅ Resolved forecasts (newest first)
 
@@ -41,9 +41,12 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 | 2026-11-04 | Will Oklahoma State Question 845 (Judicial Nominating Commission | 3% | 15% | NO | ✅ |
 | 2026-11-04 | Will Missouri Amendment 3 (repealing 2024 abortion-rights amendm | 12% | 26% | NO | ✅ |
 | 2026-11-04 | Will Florida Amendment 1 (Budget Stabilization Fund changes) be  | 3% | 28% | NO | ✅ |
+| 2026-10-31 | Will any US Senate candidate lead the polling average by 5% or m | 14% | 20% | YES | ❌ |
 | 2026-10-31 | Will Democrats win any senate seat this is not a current main ta | 82% | 60% | YES | ✅ |
 | 2026-10-31 | Will California Proposition 45 (faster CEQA environmental review | 42% | 16% | NO | ✅ |
 | 2026-10-31 | Will Anthropic release a new Claude Fable model before November  | 15% | 41% | NO | ✅ |
+| 2026-10-28 | T Coronae Borealis reaches magnitude 5.0 before November 11th, 2 | 9% | 13% | NO | ✅ |
+| 2026-10-28 | Will hemp-derived CBN sleep products still be federally legal as | 92% | 87% | YES | ✅ |
 | 2026-10-24 | Will Washington DC Initiative 86, Prohibit Force Feeding Birds a | 85% | 80% | YES | ✅ |
 | 2026-10-24 | Jon Ossoff and Roy Cooper combined margin of victory of 25% or m | 32% | 39% | YES | ❌ |
 | 2026-10-24 | Will Muse rank #1 in App Store (iPhone) on November 1st 2026 | 28% | 20% | NO | ✅ |
@@ -72,6 +75,7 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 | 2026-10-10 | Will Vivek Ramaswamy be the next Governor of Ohio? | 42% | 31% | NO | ✅ |
 | 2026-10-10 | US Average DIESEL Price Is $6.000 or more on Election Day 2026? | 78% | 61% | YES | ✅ |
 | 2026-10-08 | Will Troy Jackson get 50% or more in the first round of the Main | 54% | 59% | YES | ✅ |
+| 2026-10-08 | Will Dan Sullivan win re-election to Alaska's Senate seat in 202 | 31% | 26% | NO | ✅ |
 | 2026-10-08 | Will Republicans win the Senate in the 2026 elections? | 42% | 35% | NO | ✅ |
 | 2026-10-08 | Will Los Angeles Dodgers win the 2026 World Series? | 32% | 43% | NO | ✅ |
 | 2026-10-08 | US Average Gas Price Is $4.000 or more on November 1 2026? | 96% | 84% | YES | ✅ |
@@ -82,6 +86,7 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 | 2026-10-03 | Will Democrats win the 2026 Wisconsin Gubernatorial election? | 62% | 85% | YES | ✅ |
 | 2026-09-26 | Will Abdul El Sayed win the primary and general for senate in Mi | 63% | 67% | YES | ✅ |
 | 2026-09-26 | Will Anthropic’s IPO S-1 be public by 16 October 2026? | 62% | 51% | NO | ❌ |
+| 2026-09-26 | Democrats win Maine and Alaska US Senate Election? | 34% | 54% | YES | ❌ |
 | 2026-09-19 | Hegseth, Patel, or RFK is out within the next 90 days | 10% | 17% | NO | ✅ |
 | 2026-09-19 | US Average Gas Price Is $4.5500 or more on October 1 2026? | 62% | 51% | NO | ❌ |
 | 2026-09-19 | Will Muse rank #1 in App Store (iPhone) on October 1st 2026 | 38% | 27% | YES | ❌ |
@@ -133,12 +138,9 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 | Logged | Question | My p(YES) | Crowd |
 |---|---|---|---|
 | 2026-11-11 | Will Kamoa-Kakula Project 95 be fully commissioned by 2026-12-31 | 97% | 70% |
-| 2026-10-31 | Will any US Senate candidate lead the polling average by 5% or m | 14% | 20% |
 | 2026-10-31 | Will the GTA VI leaker be publicly identified before GTA VI rele | 32% | 42% |
 | 2026-10-31 | GPT Astra 6.1+ Released By End of November 2026? | 42% | 65% |
 | 2026-10-31 | Will GTA 6 be decompiled within a month of release | 6% | 43% |
-| 2026-10-28 | T Coronae Borealis reaches magnitude 5.0 before November 11th, 2 | 9% | 13% |
-| 2026-10-28 | Will hemp-derived CBN sleep products still be federally legal as | 92% | 87% |
 | 2026-10-28 | Will any independent win a U.S. House seat in the 2026 elections | 35% | 20% |
 | 2026-10-28 | Will at least one major hurricane make landfall in the US*? | 87% | 65% |
 | 2026-10-28 | Will the first mission of Grand Theft Auto 6 take place in a pri | 82% | 56% |
@@ -147,9 +149,7 @@ A calibrated forecaster who says "70%" should be right ~70% of the time.
 | 2026-10-14 | Will Abdul El-Sayed win by 7 points or more? | 13% | 18% |
 | 2026-10-14 | Will bitcoin rise to 105k before the Strait of Hormuz is freely  | 7% | 33% |
 | 2026-10-10 | El-Sayed comdemn or disavow Hasan Piker before midterms? | 10% | 20% |
-| 2026-10-08 | Will Dan Sullivan win re-election to Alaska's Senate seat in 202 | 31% | 26% |
 | 2026-10-03 | Will Daniel Lord still be living in a Tesla by the end of Octobe | 72% | 63% |
-| 2026-09-26 | Democrats win Maine and Alaska US Senate Election? | 34% | 54% |
 
 ---
 _Forecasts are produced by an automated research agent. Informational only; not betting or investment advice._
